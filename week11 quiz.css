@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
     width: 100%;
     height: 100%; 
@@ -63,4 +64,71 @@ html, body {
     border-radius: 5px; 
     cursor: pointer; 
   }
+=======
+html, body {
+    width: 100%;
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+  }
+
+.gamewindow {
+    width: 100%; 
+    height: 100%; 
+    }
+
+
+  .container { 
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr 0.4fr 2fr 1fr;
+    grid-template-rows: 0.1fr 0.1fr 1.8fr 1.4fr 0.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "heading heading heading heading heading"
+      "text text text text text"
+      "svg svg svg svg svg"
+      "svg svg svg svg svg"
+      "control control control control control";
+  }
+  
+  .control { grid-area: control; }
+  
+  .heading { grid-area: heading; }
+  
+  .text { grid-area: text; }
+  
+  .svg {  grid-area: svg ;} 
+  
+  
+  
+  h1 {
+    font-size: 60px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: black; 
+    text-align: left;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+  }
+  
+ 
+  button {
+    position: center; 
+    display: inline-block; 
+    margin: 10px; 
+    padding: 20px 40px; 
+    font-size: 20px;
+    font-weight: bold; 
+    color: #fff; 
+    background-color: #000000;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+>>>>>>> e1ed0c0e24e7f59e7ed95de63db6ecfe4d588202
   
